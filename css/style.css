@@ -1,0 +1,312 @@
+@charset "utf-8";
+*{
+	margin: 0px;
+	padding: 0px;
+	}
+.sizesmall p{
+	font-size:200px;
+}
+
+#semester{
+	font-size:23px;
+	text-align:center;
+	color:white;
+}
+
+#maincontent{
+	width:100%;
+	height:900px;
+	background-color:white;
+	margin-bottom:-10px;
+	/*position: relative;
+	z-index: -1*/
+}
+
+.par{
+	margin-top:-10px;
+	position: relative;
+	z-index: -1
+
+}
+.leftcon{
+	margin-top:30px;
+	margin-left:120px;
+	display:inline-block;
+    height:200px;
+    width:40%;
+    
+    float:left;
+}
+
+.leftcon p{
+	font-size:60px;
+	font-weight:700;
+	font-family: 'Roboto', sans-serif;
+	margin-left:2px;
+	color:white;
+}
+
+.leftcon h3{
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	word-spacing:inherit;
+	text-align:left;
+}
+.rightcon p{
+	font-size:35px;
+	font-weight:900;
+	font-family: 'Roboto', sans-serif;
+	margin-left:2px;
+	color:white;
+	margin-top:17px;
+	margin-left:25px;
+}
+
+.rightcon a{
+	text-decoration:none;
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	color:white;
+	margin-left:25px;
+}
+
+.rightcon li{
+	text-decoration:none;
+	list-style:none;
+}
+
+.rightcon{
+	margin-top:30px;
+	height:200px;
+	width:25%;
+	float:left;
+	
+}
+
+.rightcon a:hover{
+	color:#444;
+}
+
+.centercon p{
+	font-size:35px;
+	font-weight:700;
+	font-family: 'Roboto', sans-serif;
+	margin-left:2px;
+	color:white;
+	margin-top:15px;
+	margin-left:20px;
+}
+
+.centercon a{
+	text-decoration:none;
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	color:white;
+	margin-left:20px;
+}
+
+.centercon a:hover{
+	color:#444;
+}
+
+.centercon li{
+	text-decoration:none;
+	list-style:none;
+}
+	
+.centercon{
+	margin-top:30px;
+	height:200px;
+	width:25%;
+	float:left;
+}
+
+footer{
+	width:100%;
+	height:270px;
+	background-color:#34495e;
+	margin-top:-2px; 
+	
+}
+/*#hello {
+		position: relative;
+		z-index: -1
+	}*/
+header{
+	height:700px;
+    background:url(../img/services-parallax1.jpg) center center;
+	background-size:cover;
+	clear:both;	
+}
+
+.logo{
+	height:50px;
+	width:50px;
+	float:left;
+	margin:5px 0px 0px 50px;
+
+}
+ h4{
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+nav{
+	float:right;
+	margin:20px 40px 0px 0px;
+	}
+
+nav a{
+	text-decoration:none;
+	margin-left:25px;
+	
+	font-weight:200;
+	font-size:20px;
+	display:inline-block;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	
+	
+}
+
+ nav a:hover{
+	color:#444;
+}
+
+h1{
+	text-align:center;
+	font-size:82px;
+	font-weight:400;
+	color:#f5f5f5;
+	font-family: 'Pacifico', cursive;
+	clear:both;
+	padding-top:210px;
+	padding-left:50px;
+	text-shadow: 5px 2px 5px #424242;
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+	font-weight:0;
+}
+	
+
+.content 1{
+		height: 750px;
+		width: 100%;
+		margin-top:10px;
+		background-color:#fafafa;
+		position: relative;
+		z-index: 1;
+	}
+	
+.introduction{
+	height: 250px;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:100px;
+
+}
+
+.introduction p{
+	font-size:50px;
+	font-family: 'Roboto', sans-serif;
+	color:#424242;
+	text-align:center;
+}
+
+.study{
+	height: 80px;
+	width:70%;
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:100px;
+	
+}
+
+.study h2{
+	text-align:left;
+	color:#212121;
+	padding-top:15px;
+	font-size:45px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.content2{
+	width:100%;
+	height:850px;
+	display:inline-block;
+	background-color:#fafafa;
+	
+}
+
+.cardone{
+	height:820px;
+	width:290px;
+	float:left;
+	display:inline-block;
+	margin-left:190px;
+	margin-top:20px;
+	
+	
+}
+
+.cardtwo{
+	height:820px;
+	width:290px;
+	float:left;
+	display:inline-block;
+	margin-left:25px;
+	margin-top:20px;
+	
+}
+
+.cardthree{
+	height:820px;
+	width:290px;
+	float:right;
+	display:inline-block;
+	margin-right:235px;
+	margin-top:20px;
+	margin-left:0px;
+	
+
+}
+
+.content3{
+	width:320%;
+	height:500px;
+	position:relative;
+	background-color:green;
+	
+}
+
+.cardfour{
+	height:450px;
+	width:300px;
+	float:left;
+	display:inline-block;
+	margin-left:-65.59%;
+	margin-top:30px;
+}
+
+.cardfive{
+	height:450px;
+	width:300px;
+	float:left;
+	display:inline-block;
+	margin-left:330px;
+	margin-top:-433px;
+}
+
+.cardsix{
+	height:450px;
+	width:300px;
+	float:left;
+	display:inline-block;
+	margin-left:330px;
+	margin-top:-433px;
+}
+
